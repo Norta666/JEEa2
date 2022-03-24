@@ -1,0 +1,18 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">WMAD Java EE Assignment 2</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}"><i class="fas fa-angle-double-right"></i> Predictor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}/salary/list"><i class="fas fa-angle-double-right"></i> All salaries</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}/salary/search"><i class="fas fa-angle-double-right"></i> Find by name</a>
+            </li>
+        </ul>
+    </div>
+</nav>
